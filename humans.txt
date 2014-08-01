@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    David Oliveros -- UI / Web developer -- @davidoliveros
+    Darius Salehipour -- UI / UX Designer -- @designerdarius
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+
+    Normalize.css, jQuery

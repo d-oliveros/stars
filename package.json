@@ -1,0 +1,9 @@
+{
+  "name": "stars",
+  "version": "1.0.0",
+  "dependencies": {
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*"
+  }
+}

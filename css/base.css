@@ -1,0 +1,180 @@
+html, body{
+	height:100%;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #030303;
+	font: 14px/21px "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Tahoma, Lucida Grande, Arial, sans-serif;
+	color: #FAFAFA;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+ }
+
+ canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:99999;
+}
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #FAFAFA;
+		font-weight: 200; 
+		margin:0;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; }
+	h2 { font-size: 35px; line-height: 40px; }
+	h3 { font-size: 28px; line-height: 34px; }
+	h4 { font-size: 21px; line-height: 30px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { text-decoration: none; outline: 0; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul { list-style: none outside; padding:0; margin:0;}
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; }
+	li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+	img.scale {
+		max-width: 100%;
+		height: auto; }
+
+
+/* #Buttons
+================================================== */
+
+	input, button, button *{
+		outline:none;
+	}
+
+	button{
+		overflow:hidden;
+	}
+
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	#input-submit {
+	  color: #333332;
+	  display: inline-block;
+	  font-size: 18px;
+	  font-weight: 500;
+	  text-decoration: none;
+	  cursor: pointer;
+	  line-height: normal;
+	  background:#FAFAFA;
+	  border:0;
+	  padding:20px;
+	}
+	
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+	}
+
+
+/* #Forms
+================================================== */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		color:#FAFAFA;
+		border:0;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		margin: 0;
+		max-width: 100%;
+		display: block;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+	}
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+.box, .box:before, .box:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+ }
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
