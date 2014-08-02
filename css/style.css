@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, .shadow{
 	text-shadow: 0 1px 1px rgba(0,0,0,.11);
 }
 
+body {
+	overflow: hidden;
+}
+
 #front{
 	-moz-user-select: none; 
     -khtml-user-select: none; 
