@@ -1,9 +1,6 @@
 Stars
 =====
 
-Did someone miss this?
-
-See
-=====
+An experiment using two codepen scripts and a cool background image.
 
 http://stars.careerdean.com
