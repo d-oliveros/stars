@@ -14,7 +14,7 @@
 
 	section#main{
 		text-align:center;
-		margin-top:120px;
+		margin-top:170px;
 		position:relative;
 		margin-bottom:0px;
 	}
@@ -169,7 +169,7 @@
 @media only screen and (max-height: 880px){
 
 	section#main {
-		margin-top:56px;
+		margin-top:76px;
 		transition:all .2s;
 	}
 
