@@ -2,8 +2,9 @@
   "name": "stars",
   "version": "1.0.0",
   "dependencies": {
-    "grunt-contrib-uglify": "*",
+    "grunt": "^0.4.5",
     "grunt-contrib-concat": "*",
-    "grunt-contrib-cssmin": "*"
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*"
   }
 }
