@@ -12,8 +12,8 @@
     "grunt-contrib-uglify": "*"
   },
   "devDependencies": {
-    "bower": "^1.8.13",
-    "grunt": "^1.4.1",
-    "http-server": "^14.1.0"
+    "bower": "^1.8.14",
+    "grunt": "^1.6.1",
+    "http-server": "^14.1.1"
   }
 }
